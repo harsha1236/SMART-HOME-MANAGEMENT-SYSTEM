@@ -1,0 +1,27 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Downloaded datasets and models
+data/*
+!data/.gitkeep
+*.pkl
+*.joblib
+*.zip
+
+# Local vector indexes
+storage/
+chroma_db/
+
+# macOS
+.DS_Store
+
+# Streamlit secrets
+.streamlit/secrets.toml
